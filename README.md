@@ -67,7 +67,10 @@ dotnet publish -c Release
 ```
 
 - This should create a Release folder inside the exercise.main\bin\Release\net7.0 with a Release build of the application.  
-- Now from within the exercise.main directory (where the exercise.main.csproj resides) create a Dockerfile (use touch Docker).  
+- Now from within the exercise.main directory (where the exercise.main.csproj resides) create a Dockerfile:
+```
+touch Docker
+```
 - Now open the Dockerfile and add the following contents to it:  
 ```
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
