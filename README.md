@@ -1,6 +1,6 @@
 # C# Docker Introduction
 
-Note: This exercise requires a few things to be installed.   
+Note: This exercise requires a few things to be installed.  For a details please examine the [Prerequisites Readme](PREREQUISITES.md)
 
 ## Learning Objectives
 - Create and publish a simple .Net app
@@ -10,8 +10,10 @@ Note: This exercise requires a few things to be installed.
 
 ## Hello from Docker!
 
-From Git Bash run the command:  docker run hello-world  
-
+From Git Bash run the command:  
+```
+docker run hello-world  
+```
 This should produce something simlar to the following:  
 ```
 Unable to find image 'hello-world:latest' locally
