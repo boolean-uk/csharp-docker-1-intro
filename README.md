@@ -69,7 +69,7 @@ dotnet publish -c Release
 - This should create a Release folder inside the exercise.main\bin\Release\net7.0 with a Release build of the application.  
 - Now from within the exercise.main directory (where the exercise.main.csproj resides) create a Dockerfile:
 ```
-touch Docker
+touch Dockerfile
 ```
 - Now open the Dockerfile and add the following contents to it:  
 ```
