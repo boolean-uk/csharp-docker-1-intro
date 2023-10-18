@@ -108,7 +108,10 @@ docker ps -a
 ```
 docker start my-clock-container
 ```
-
+## Attaching to a container
+```
+docker attach --sig-proxy=false my-clock-container
+```
 ### Stopping a container
 ```
 docker stop my-clock-container
