@@ -1,6 +1,6 @@
 # C# Docker Introduction
 
-Note: This exercise requires a few things to be installed.  For a details please examine the [Prerequisites Readme](PREREQUISITES.md)
+Note: This exercise requires a few things to be installed.  For a details please see the [Docker Guide Here](https://docs.docker.com/desktop/install/windows-install/)
 
 ## Learning Objectives
 - Create and publish a simple .Net app
