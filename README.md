@@ -106,17 +106,17 @@ docker ps -a
 ```
 ## Starting a container
 ```
-docker start my-core-container
+docker start my-clock-container
 ```
 
 ### Stopping a container
 ```
-docker stop my-core-container
+docker stop my-clock-container
 ```
 
 ## Deleting a container
 ```
-docker rm my-core-container
+docker rm my-clock-container
 ```
 
 
